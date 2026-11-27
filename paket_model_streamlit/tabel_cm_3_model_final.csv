@@ -1,0 +1,4 @@
+Model,TP (HS Tertangkap),FN (Kecolongan),FP (Salah Tuduh),TN (Aman Benar),Recall HS,Precision HS
+XLM-RoBERTa Base,454,137,171,1214,76.79% ± 3.20%,72.83% ± 2.95%
+DistilBERT Indo (cahya),436,155,159,1226,73.81% ± 1.39%,73.31% ± 0.41%
+DistilBERT Multilingual,423,168,167,1218,71.64% ± 3.30%,71.80% ± 1.36%

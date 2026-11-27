@@ -1,0 +1,28 @@
+# Byte-compiled / cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model terlatih berukuran besar (>100 MB) & paket arsip
+saved_models/
+best_model_cyberbullying/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.h5
+*.zip
+
+# Konfigurasi rahasia & environment
+.env
+.streamlit/secrets.toml
+
+# Berkas sistem operasi & editor
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/

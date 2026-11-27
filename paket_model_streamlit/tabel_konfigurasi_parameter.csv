@@ -1,0 +1,9 @@
+Parameter,Nilai,Keterangan
+Max Sequence Length,128 token,Menampung 100% panjang tweet hasil audit tanpa pemotongan
+Batch Size,32,Konfigurasi optimal hasil Grid Search Tahap 1
+Learning Rate,2e-05,Konfigurasi optimal hasil Grid Search Tahap 1 (AdamW)
+Max Epochs & Patience,15 epoch (Patience=4),Early Stopping memantau Val Macro F1 tertinggi
+Weight Decay & Warmup,0.01 | 10%,Regularisasi L2 & linear warmup untuk stabilitas gradien
+Penanganan Imbalance,Class Weighting (~1 : 2.34),Metode terbaik hasil Ablation Study Tahap 2 (tanpa data buatan)
+Replikasi Random Seed,"[1, 2, 3, 4, 5] (5 seeds)",Menjamin validitas statistik (pelaporan Mean ± Std)
+Data Splitting,70% Train : 15% Val : 15% Test,Stratified split terkunci (random_state=42)
